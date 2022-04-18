@@ -228,3 +228,9 @@ group split up: user.vscode("workbench.action.splitEditorUp")
 group split down: user.vscode("workbench.action.splitEditorDown")
 group split left: user.vscode("workbench.action.splitEditorLeft")
 group split right: user.vscode("workbench.action.splitEditorRight")
+
+# Tasks
+run task: user.vscode("workbench.action.tasks.runTask")
+run build: user.vscode("workbench.action.tasks.build")
+run test: user.vscode("workbench.action.tasks.test")
+run again: user.vscode("workbench.action.tasks.reRunTask")
