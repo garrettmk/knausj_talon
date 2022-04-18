@@ -209,3 +209,22 @@ cell run above: user.vscode("jupyter.runallcellsabove.palette")
 cell run: user.vscode("jupyter.runcurrentcell")
 
 install local: user.vscode("workbench.extensions.action.installVSIX")
+
+# Editor groups
+group focus up: user.vscode("workbench.action.focusAboveGroup")
+group focus down: user.vscode("workbench.action.focusBelowGroup")
+group focus left: user.vscode("workbench.action.focusLeftGroup")
+group focus right: user.vscode("workbench.action.focusRightGroup")
+
+group move up: user.vscode("workbench.action.moveActiveEditorGroupUp")
+group move down: user.vscode("workbench.action.moveActiveEditorGroupDown")
+group move left: user.vscode("workbench.action.moveActiveEditorGroupLeft")
+group move right: user.vscode("workbench.action.moveActiveEditorGroupRight")
+
+group move next: user.vscode("workbench.action.moveEditorToNextGroup")
+group move previous: user.vscode("workbench.action.moveEditorToPreviousGroup")
+
+group split up: user.vscode("workbench.action.splitEditorUp")
+group split down: user.vscode("workbench.action.splitEditorDown")
+group split left: user.vscode("workbench.action.splitEditorLeft")
+group split right: user.vscode("workbench.action.splitEditorRight")
